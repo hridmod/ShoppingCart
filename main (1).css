@@ -1,0 +1,105 @@
+
+
+#header {
+
+color:goldenrod;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+}
+
+#header:hover {
+    color: #cd5c5c;
+}
+
+body {
+    background-color:#000000;
+    background-image: linear-gradient(white,wheat);
+display: inline;
+}
+
+.list-group-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    }
+
+.links {
+    color:black;
+    padding:10px;
+
+}
+
+/* LOG ORDER */
+tr {
+    font-size:x-large;
+    padding: 20px;
+
+}
+
+
+td {
+    padding: 20px;
+}
+
+.buttons {
+    margin-left: 10%;
+
+}
+
+.h1s {
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.h1s:hover {
+    color: #030104;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+
+label {
+    color: goldenrod;
+    font-size: x-large;
+    width=1000px;
+}
+
+.message{
+  color: goldenrod;
+  font-size: large;
+  display: inline;
+}
+
+.cust {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    display: inline;
+    margin-left: 0;
+
+}
+
+span {
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+#hi {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+.timer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: thistle;
+}
+
+.ps {
+    color:white
+}

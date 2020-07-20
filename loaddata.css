@@ -1,0 +1,114 @@
+*
+{
+    /* border: solid red 2px; */
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    background-color: #131315;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.head
+{
+    /* grid-row: 1/2;
+    grid-column: 2/3; */
+    font-size: 50px;
+    text-align: center ;
+	color: white;
+}
+
+#ul
+{
+	border-bottom: solid white 3px;
+}
+
+.loadform
+{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+.presets
+{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.old
+{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    align-content: center;
+}
+
+.new
+{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: grid;
+    align-content: center;
+}
+
+select
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #a4bfef;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+input[type=submit]
+{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background: #a4bfef;
+}
+
+
+
+#message
+{
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.timer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+}
